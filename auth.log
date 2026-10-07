@@ -1,0 +1,590 @@
+Oct  8 06:17:00 gms-web01 CRON[1829]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  8 06:17:01 gms-web01 CRON[1829]: pam_unix(cron:session): session closed for user root
+Oct  8 07:17:00 gms-web01 CRON[1845]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  8 07:17:01 gms-web01 CRON[1845]: pam_unix(cron:session): session closed for user root
+Oct  8 08:02:11 gms-web01 sshd[2367]: Accepted publickey for jsantos from 198.51.100.23 port 53110 ssh2
+Oct  8 08:02:11 gms-web01 sshd[2367]: pam_unix(sshd:session): session opened for user jsantos(uid=1000) by jsantos(uid=0)
+Oct  8 08:02:11 gms-web01 systemd-logind[652]: New session 41 of user jsantos.
+Oct  8 08:04:30 gms-web01 sudo: jsantos : TTY=pts/0 ; PWD=/home/jsantos ; USER=root ; COMMAND=/usr/bin/apt update
+Oct  8 08:04:30 gms-web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jsantos(uid=1000)
+Oct  8 08:04:55 gms-web01 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 08:09:02 gms-web01 sudo: jsantos : TTY=pts/0 ; PWD=/home/jsantos ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Oct  8 08:09:02 gms-web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jsantos(uid=1000)
+Oct  8 08:09:04 gms-web01 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 08:17:00 gms-web01 CRON[1852]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  8 08:17:01 gms-web01 CRON[1852]: pam_unix(cron:session): session closed for user root
+Oct  8 08:40:51 gms-web01 sudo: jsantos : TTY=pts/0 ; PWD=/home/jsantos ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+Oct  8 08:40:51 gms-web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jsantos(uid=1000)
+Oct  8 08:41:11 gms-web01 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 08:54:11 gms-web01 sshd[2367]: Received disconnect from 198.51.100.23 port 53110:11: disconnected by user
+Oct  8 08:54:11 gms-web01 sshd[2367]: Disconnected from user jsantos 198.51.100.23 port 53110
+Oct  8 08:54:11 gms-web01 sshd[2367]: pam_unix(sshd:session): session closed for user jsantos
+Oct  8 08:54:11 gms-web01 systemd-logind[652]: Session 41 logged out. Waiting for processes to exit.
+Oct  8 09:17:00 gms-web01 CRON[1873]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  8 09:17:01 gms-web01 CRON[1873]: pam_unix(cron:session): session closed for user root
+Oct  8 10:14:00 gms-web01 sshd[2432]: Failed password for root from 192.0.2.88 port 46727 ssh2
+Oct  8 10:14:01 gms-web01 sshd[2432]: Connection closed by authenticating user root 192.0.2.88 port 46727 [preauth]
+Oct  8 10:14:06 gms-web01 sshd[2466]: Failed password for root from 192.0.2.88 port 40218 ssh2
+Oct  8 10:14:07 gms-web01 sshd[2466]: Connection closed by authenticating user root 192.0.2.88 port 40218 [preauth]
+Oct  8 10:14:10 gms-web01 sshd[2489]: Failed password for root from 192.0.2.88 port 37531 ssh2
+Oct  8 10:14:11 gms-web01 sshd[2489]: Connection closed by authenticating user root 192.0.2.88 port 37531 [preauth]
+Oct  8 10:14:19 gms-web01 sshd[2514]: Invalid user support1 from 192.0.2.88 port 62614
+Oct  8 10:14:20 gms-web01 sshd[2514]: Failed password for invalid user support1 from 192.0.2.88 port 62614 ssh2
+Oct  8 10:14:20 gms-web01 sshd[2514]: Connection closed by invalid user support1 192.0.2.88 port 62614 [preauth]
+Oct  8 10:14:25 gms-web01 sshd[2538]: Invalid user pi from 192.0.2.88 port 46930
+Oct  8 10:14:26 gms-web01 sshd[2538]: Failed password for invalid user pi from 192.0.2.88 port 46930 ssh2
+Oct  8 10:14:26 gms-web01 sshd[2538]: Connection closed by invalid user pi 192.0.2.88 port 46930 [preauth]
+Oct  8 10:14:31 gms-web01 sshd[2554]: Invalid user test from 192.0.2.88 port 35065
+Oct  8 10:14:32 gms-web01 sshd[2554]: Failed password for invalid user test from 192.0.2.88 port 35065 ssh2
+Oct  8 10:14:32 gms-web01 sshd[2554]: Connection closed by invalid user test 192.0.2.88 port 35065 [preauth]
+Oct  8 10:14:37 gms-web01 sshd[2592]: Invalid user admin from 192.0.2.88 port 53363
+Oct  8 10:14:38 gms-web01 sshd[2592]: Failed password for invalid user admin from 192.0.2.88 port 53363 ssh2
+Oct  8 10:14:38 gms-web01 sshd[2592]: Connection closed by invalid user admin 192.0.2.88 port 53363 [preauth]
+Oct  8 10:14:45 gms-web01 sshd[2617]: Invalid user ftpuser from 192.0.2.88 port 58027
+Oct  8 10:14:46 gms-web01 sshd[2617]: Failed password for invalid user ftpuser from 192.0.2.88 port 58027 ssh2
+Oct  8 10:14:46 gms-web01 sshd[2617]: Connection closed by invalid user ftpuser 192.0.2.88 port 58027 [preauth]
+Oct  8 10:14:49 gms-web01 sshd[2652]: Invalid user oracle from 192.0.2.88 port 40352
+Oct  8 10:14:50 gms-web01 sshd[2652]: Failed password for invalid user oracle from 192.0.2.88 port 40352 ssh2
+Oct  8 10:14:50 gms-web01 sshd[2652]: Connection closed by invalid user oracle 192.0.2.88 port 40352 [preauth]
+Oct  8 10:14:53 gms-web01 sshd[2682]: Failed password for root from 192.0.2.88 port 33846 ssh2
+Oct  8 10:14:54 gms-web01 sshd[2682]: Connection closed by authenticating user root 192.0.2.88 port 33846 [preauth]
+Oct  8 10:15:00 gms-web01 sshd[2722]: Invalid user user from 192.0.2.88 port 56694
+Oct  8 10:15:01 gms-web01 sshd[2722]: Failed password for invalid user user from 192.0.2.88 port 56694 ssh2
+Oct  8 10:15:01 gms-web01 sshd[2722]: Connection closed by invalid user user 192.0.2.88 port 56694 [preauth]
+Oct  8 10:15:03 gms-web01 sshd[2759]: Failed password for root from 192.0.2.88 port 62516 ssh2
+Oct  8 10:15:04 gms-web01 sshd[2759]: Connection closed by authenticating user root 192.0.2.88 port 62516 [preauth]
+Oct  8 10:15:11 gms-web01 sshd[2799]: Invalid user admin from 192.0.2.88 port 52118
+Oct  8 10:15:12 gms-web01 sshd[2799]: Failed password for invalid user admin from 192.0.2.88 port 52118 ssh2
+Oct  8 10:15:12 gms-web01 sshd[2799]: Connection closed by invalid user admin 192.0.2.88 port 52118 [preauth]
+Oct  8 10:15:13 gms-web01 sshd[2802]: Failed password for root from 192.0.2.88 port 53388 ssh2
+Oct  8 10:15:14 gms-web01 sshd[2802]: Connection closed by authenticating user root 192.0.2.88 port 53388 [preauth]
+Oct  8 10:15:22 gms-web01 sshd[2816]: Invalid user git from 192.0.2.88 port 42108
+Oct  8 10:15:23 gms-web01 sshd[2816]: Failed password for invalid user git from 192.0.2.88 port 42108 ssh2
+Oct  8 10:15:23 gms-web01 sshd[2816]: Connection closed by invalid user git 192.0.2.88 port 42108 [preauth]
+Oct  8 10:15:25 gms-web01 sshd[2819]: Invalid user ftpuser from 192.0.2.88 port 53702
+Oct  8 10:15:26 gms-web01 sshd[2819]: Failed password for invalid user ftpuser from 192.0.2.88 port 53702 ssh2
+Oct  8 10:15:26 gms-web01 sshd[2819]: Connection closed by invalid user ftpuser 192.0.2.88 port 53702 [preauth]
+Oct  8 10:15:33 gms-web01 sshd[2823]: Invalid user user from 192.0.2.88 port 30353
+Oct  8 10:15:34 gms-web01 sshd[2823]: Failed password for invalid user user from 192.0.2.88 port 30353 ssh2
+Oct  8 10:15:34 gms-web01 sshd[2823]: Connection closed by invalid user user 192.0.2.88 port 30353 [preauth]
+Oct  8 10:15:40 gms-web01 sshd[2832]: Failed password for root from 192.0.2.88 port 49648 ssh2
+Oct  8 10:15:41 gms-web01 sshd[2832]: Connection closed by authenticating user root 192.0.2.88 port 49648 [preauth]
+Oct  8 10:15:47 gms-web01 sshd[2838]: Invalid user deploy from 192.0.2.88 port 31581
+Oct  8 10:15:48 gms-web01 sshd[2838]: Failed password for invalid user deploy from 192.0.2.88 port 31581 ssh2
+Oct  8 10:15:48 gms-web01 sshd[2838]: Connection closed by invalid user deploy 192.0.2.88 port 31581 [preauth]
+Oct  8 10:15:56 gms-web01 sshd[2843]: Invalid user git from 192.0.2.88 port 36656
+Oct  8 10:15:57 gms-web01 sshd[2843]: Failed password for invalid user git from 192.0.2.88 port 36656 ssh2
+Oct  8 10:15:57 gms-web01 sshd[2843]: Connection closed by invalid user git 192.0.2.88 port 36656 [preauth]
+Oct  8 10:16:05 gms-web01 sshd[2846]: Invalid user oracle from 192.0.2.88 port 60199
+Oct  8 10:16:06 gms-web01 sshd[2846]: Failed password for invalid user oracle from 192.0.2.88 port 60199 ssh2
+Oct  8 10:16:06 gms-web01 sshd[2846]: Connection closed by invalid user oracle 192.0.2.88 port 60199 [preauth]
+Oct  8 10:16:11 gms-web01 sshd[2867]: Failed password for root from 192.0.2.88 port 48282 ssh2
+Oct  8 10:16:12 gms-web01 sshd[2867]: Connection closed by authenticating user root 192.0.2.88 port 48282 [preauth]
+Oct  8 10:16:18 gms-web01 sshd[2901]: Invalid user postgres from 192.0.2.88 port 49625
+Oct  8 10:16:19 gms-web01 sshd[2901]: Failed password for invalid user postgres from 192.0.2.88 port 49625 ssh2
+Oct  8 10:16:19 gms-web01 sshd[2901]: Connection closed by invalid user postgres 192.0.2.88 port 49625 [preauth]
+Oct  8 10:16:24 gms-web01 sshd[2940]: Invalid user postgres from 192.0.2.88 port 48236
+Oct  8 10:16:25 gms-web01 sshd[2940]: Failed password for invalid user postgres from 192.0.2.88 port 48236 ssh2
+Oct  8 10:16:25 gms-web01 sshd[2940]: Connection closed by invalid user postgres 192.0.2.88 port 48236 [preauth]
+Oct  8 10:16:29 gms-web01 sshd[2950]: Invalid user user from 192.0.2.88 port 64402
+Oct  8 10:16:30 gms-web01 sshd[2950]: Failed password for invalid user user from 192.0.2.88 port 64402 ssh2
+Oct  8 10:16:30 gms-web01 sshd[2950]: Connection closed by invalid user user 192.0.2.88 port 64402 [preauth]
+Oct  8 10:16:35 gms-web01 sshd[2978]: Failed password for root from 192.0.2.88 port 32773 ssh2
+Oct  8 10:16:36 gms-web01 sshd[2978]: Connection closed by authenticating user root 192.0.2.88 port 32773 [preauth]
+Oct  8 10:16:43 gms-web01 sshd[3016]: Failed password for root from 192.0.2.88 port 34476 ssh2
+Oct  8 10:16:44 gms-web01 sshd[3016]: Connection closed by authenticating user root 192.0.2.88 port 34476 [preauth]
+Oct  8 10:16:51 gms-web01 sshd[3042]: Failed password for root from 192.0.2.88 port 38299 ssh2
+Oct  8 10:16:52 gms-web01 sshd[3042]: Connection closed by authenticating user root 192.0.2.88 port 38299 [preauth]
+Oct  8 10:17:00 gms-web01 CRON[1879]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  8 10:17:00 gms-web01 sshd[3046]: Failed password for root from 192.0.2.88 port 61633 ssh2
+Oct  8 10:17:01 gms-web01 CRON[1879]: pam_unix(cron:session): session closed for user root
+Oct  8 10:17:01 gms-web01 sshd[3046]: Connection closed by authenticating user root 192.0.2.88 port 61633 [preauth]
+Oct  8 10:17:05 gms-web01 sshd[3062]: Invalid user admin from 192.0.2.88 port 42423
+Oct  8 10:17:06 gms-web01 sshd[3062]: Failed password for invalid user admin from 192.0.2.88 port 42423 ssh2
+Oct  8 10:17:06 gms-web01 sshd[3062]: Connection closed by invalid user admin 192.0.2.88 port 42423 [preauth]
+Oct  8 10:17:09 gms-web01 sshd[3066]: Invalid user admin from 192.0.2.88 port 37717
+Oct  8 10:17:10 gms-web01 sshd[3066]: Failed password for invalid user admin from 192.0.2.88 port 37717 ssh2
+Oct  8 10:17:10 gms-web01 sshd[3066]: Connection closed by invalid user admin 192.0.2.88 port 37717 [preauth]
+Oct  8 10:17:12 gms-web01 sshd[3097]: Failed password for root from 192.0.2.88 port 39102 ssh2
+Oct  8 10:17:13 gms-web01 sshd[3097]: Connection closed by authenticating user root 192.0.2.88 port 39102 [preauth]
+Oct  8 10:17:17 gms-web01 sshd[3114]: Failed password for root from 192.0.2.88 port 54241 ssh2
+Oct  8 10:17:18 gms-web01 sshd[3114]: Connection closed by authenticating user root 192.0.2.88 port 54241 [preauth]
+Oct  8 10:17:21 gms-web01 sshd[3133]: Invalid user git from 192.0.2.88 port 43343
+Oct  8 10:17:22 gms-web01 sshd[3133]: Failed password for invalid user git from 192.0.2.88 port 43343 ssh2
+Oct  8 10:17:22 gms-web01 sshd[3133]: Connection closed by invalid user git 192.0.2.88 port 43343 [preauth]
+Oct  8 10:17:23 gms-web01 sshd[3149]: Failed password for root from 192.0.2.88 port 43420 ssh2
+Oct  8 10:17:24 gms-web01 sshd[3149]: Connection closed by authenticating user root 192.0.2.88 port 43420 [preauth]
+Oct  8 10:17:25 gms-web01 sshd[3184]: Invalid user oracle from 192.0.2.88 port 38406
+Oct  8 10:17:26 gms-web01 sshd[3184]: Failed password for invalid user oracle from 192.0.2.88 port 38406 ssh2
+Oct  8 10:17:26 gms-web01 sshd[3184]: Connection closed by invalid user oracle 192.0.2.88 port 38406 [preauth]
+Oct  8 10:17:34 gms-web01 sshd[3201]: Invalid user admin from 192.0.2.88 port 51181
+Oct  8 10:17:35 gms-web01 sshd[3201]: Failed password for invalid user admin from 192.0.2.88 port 51181 ssh2
+Oct  8 10:17:35 gms-web01 sshd[3201]: Connection closed by invalid user admin 192.0.2.88 port 51181 [preauth]
+Oct  8 10:17:36 gms-web01 sshd[3227]: Invalid user oracle from 192.0.2.88 port 38605
+Oct  8 10:17:37 gms-web01 sshd[3227]: Failed password for invalid user oracle from 192.0.2.88 port 38605 ssh2
+Oct  8 10:17:37 gms-web01 sshd[3227]: Connection closed by invalid user oracle 192.0.2.88 port 38605 [preauth]
+Oct  8 10:17:44 gms-web01 sshd[3259]: Invalid user admin from 192.0.2.88 port 64673
+Oct  8 10:17:45 gms-web01 sshd[3259]: Failed password for invalid user admin from 192.0.2.88 port 64673 ssh2
+Oct  8 10:17:45 gms-web01 sshd[3259]: Connection closed by invalid user admin 192.0.2.88 port 64673 [preauth]
+Oct  8 10:17:51 gms-web01 sshd[3282]: Failed password for root from 192.0.2.88 port 40928 ssh2
+Oct  8 10:17:52 gms-web01 sshd[3282]: Connection closed by authenticating user root 192.0.2.88 port 40928 [preauth]
+Oct  8 10:17:54 gms-web01 sshd[3298]: Invalid user ubuntu from 192.0.2.88 port 40050
+Oct  8 10:17:55 gms-web01 sshd[3298]: Failed password for invalid user ubuntu from 192.0.2.88 port 40050 ssh2
+Oct  8 10:17:55 gms-web01 sshd[3298]: Connection closed by invalid user ubuntu 192.0.2.88 port 40050 [preauth]
+Oct  8 10:17:58 gms-web01 sshd[3322]: Invalid user oracle from 192.0.2.88 port 35251
+Oct  8 10:17:59 gms-web01 sshd[3322]: Failed password for invalid user oracle from 192.0.2.88 port 35251 ssh2
+Oct  8 10:17:59 gms-web01 sshd[3322]: Connection closed by invalid user oracle 192.0.2.88 port 35251 [preauth]
+Oct  8 10:18:00 gms-web01 sshd[3334]: Failed password for root from 192.0.2.88 port 56363 ssh2
+Oct  8 10:18:01 gms-web01 sshd[3334]: Connection closed by authenticating user root 192.0.2.88 port 56363 [preauth]
+Oct  8 10:18:03 gms-web01 sshd[3374]: Failed password for root from 192.0.2.88 port 32797 ssh2
+Oct  8 10:18:04 gms-web01 sshd[3374]: Connection closed by authenticating user root 192.0.2.88 port 32797 [preauth]
+Oct  8 10:18:08 gms-web01 sshd[3409]: Failed password for root from 192.0.2.88 port 56681 ssh2
+Oct  8 10:18:09 gms-web01 sshd[3409]: Connection closed by authenticating user root 192.0.2.88 port 56681 [preauth]
+Oct  8 10:18:15 gms-web01 sshd[3445]: Invalid user pi from 192.0.2.88 port 53694
+Oct  8 10:18:16 gms-web01 sshd[3445]: Failed password for invalid user pi from 192.0.2.88 port 53694 ssh2
+Oct  8 10:18:16 gms-web01 sshd[3445]: Connection closed by invalid user pi 192.0.2.88 port 53694 [preauth]
+Oct  8 10:18:18 gms-web01 sshd[3449]: Invalid user test from 192.0.2.88 port 46601
+Oct  8 10:18:19 gms-web01 sshd[3449]: Failed password for invalid user test from 192.0.2.88 port 46601 ssh2
+Oct  8 10:18:19 gms-web01 sshd[3449]: Connection closed by invalid user test 192.0.2.88 port 46601 [preauth]
+Oct  8 10:18:27 gms-web01 sshd[3486]: Invalid user ftpuser from 192.0.2.88 port 53554
+Oct  8 10:18:28 gms-web01 sshd[3486]: Failed password for invalid user ftpuser from 192.0.2.88 port 53554 ssh2
+Oct  8 10:18:28 gms-web01 sshd[3486]: Connection closed by invalid user ftpuser 192.0.2.88 port 53554 [preauth]
+Oct  8 10:18:30 gms-web01 sshd[3508]: Invalid user admin from 192.0.2.88 port 54952
+Oct  8 10:18:31 gms-web01 sshd[3508]: Failed password for invalid user admin from 192.0.2.88 port 54952 ssh2
+Oct  8 10:18:31 gms-web01 sshd[3508]: Connection closed by invalid user admin 192.0.2.88 port 54952 [preauth]
+Oct  8 10:18:36 gms-web01 sshd[3526]: Invalid user pi from 192.0.2.88 port 49907
+Oct  8 10:18:37 gms-web01 sshd[3526]: Failed password for invalid user pi from 192.0.2.88 port 49907 ssh2
+Oct  8 10:18:37 gms-web01 sshd[3526]: Connection closed by invalid user pi 192.0.2.88 port 49907 [preauth]
+Oct  8 10:18:39 gms-web01 sshd[3562]: Failed password for root from 192.0.2.88 port 37958 ssh2
+Oct  8 10:18:40 gms-web01 sshd[3562]: Connection closed by authenticating user root 192.0.2.88 port 37958 [preauth]
+Oct  8 10:18:42 gms-web01 sshd[3579]: Invalid user ftpuser from 192.0.2.88 port 41680
+Oct  8 10:18:43 gms-web01 sshd[3579]: Failed password for invalid user ftpuser from 192.0.2.88 port 41680 ssh2
+Oct  8 10:18:43 gms-web01 sshd[3579]: Connection closed by invalid user ftpuser 192.0.2.88 port 41680 [preauth]
+Oct  8 10:18:44 gms-web01 sshd[3588]: Invalid user git from 192.0.2.88 port 55525
+Oct  8 10:18:45 gms-web01 sshd[3588]: Failed password for invalid user git from 192.0.2.88 port 55525 ssh2
+Oct  8 10:18:45 gms-web01 sshd[3588]: Connection closed by invalid user git 192.0.2.88 port 55525 [preauth]
+Oct  8 10:18:47 gms-web01 sshd[3598]: Failed password for root from 192.0.2.88 port 48607 ssh2
+Oct  8 10:18:48 gms-web01 sshd[3598]: Connection closed by authenticating user root 192.0.2.88 port 48607 [preauth]
+Oct  8 10:18:52 gms-web01 sshd[3606]: Failed password for root from 192.0.2.88 port 64924 ssh2
+Oct  8 10:18:53 gms-web01 sshd[3606]: Connection closed by authenticating user root 192.0.2.88 port 64924 [preauth]
+Oct  8 10:18:57 gms-web01 sshd[3639]: Invalid user git from 192.0.2.88 port 54289
+Oct  8 10:18:58 gms-web01 sshd[3639]: Failed password for invalid user git from 192.0.2.88 port 54289 ssh2
+Oct  8 10:18:58 gms-web01 sshd[3639]: Connection closed by invalid user git 192.0.2.88 port 54289 [preauth]
+Oct  8 10:19:02 gms-web01 sshd[3669]: Invalid user ubuntu from 192.0.2.88 port 33622
+Oct  8 10:19:03 gms-web01 sshd[3669]: Failed password for invalid user ubuntu from 192.0.2.88 port 33622 ssh2
+Oct  8 10:19:03 gms-web01 sshd[3669]: Connection closed by invalid user ubuntu 192.0.2.88 port 33622 [preauth]
+Oct  8 10:19:07 gms-web01 sshd[3699]: Failed password for root from 192.0.2.88 port 52950 ssh2
+Oct  8 10:19:08 gms-web01 sshd[3699]: Connection closed by authenticating user root 192.0.2.88 port 52950 [preauth]
+Oct  8 10:19:11 gms-web01 sshd[3711]: Failed password for root from 192.0.2.88 port 55068 ssh2
+Oct  8 10:19:12 gms-web01 sshd[3711]: Connection closed by authenticating user root 192.0.2.88 port 55068 [preauth]
+Oct  8 10:19:14 gms-web01 sshd[3736]: Failed password for root from 192.0.2.88 port 31090 ssh2
+Oct  8 10:19:15 gms-web01 sshd[3736]: Connection closed by authenticating user root 192.0.2.88 port 31090 [preauth]
+Oct  8 11:17:00 gms-web01 CRON[1919]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  8 11:17:01 gms-web01 CRON[1919]: pam_unix(cron:session): session closed for user root
+Oct  8 12:17:00 gms-web01 CRON[1957]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  8 12:17:01 gms-web01 CRON[1957]: pam_unix(cron:session): session closed for user root
+Oct  8 13:15:44 gms-web01 sshd[2405]: Accepted password for dmorales from 198.51.100.61 port 61022 ssh2
+Oct  8 13:15:44 gms-web01 sshd[2405]: pam_unix(sshd:session): session opened for user dmorales(uid=1001) by dmorales(uid=0)
+Oct  8 13:15:44 gms-web01 systemd-logind[652]: New session 42 of user dmorales.
+Oct  8 13:17:00 gms-web01 CRON[1980]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  8 13:17:01 gms-web01 CRON[1980]: pam_unix(cron:session): session closed for user root
+Oct  8 13:31:09 gms-web01 sudo: dmorales : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/tail -n 50 /var/log/apache2/error.log
+Oct  8 13:31:09 gms-web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by dmorales(uid=1001)
+Oct  8 13:31:26 gms-web01 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 13:53:44 gms-web01 sshd[2405]: Received disconnect from 198.51.100.61 port 61022:11: disconnected by user
+Oct  8 13:53:44 gms-web01 sshd[2405]: Disconnected from user dmorales 198.51.100.61 port 61022
+Oct  8 13:53:44 gms-web01 sshd[2405]: pam_unix(sshd:session): session closed for user dmorales
+Oct  8 13:53:44 gms-web01 systemd-logind[652]: Session 42 logged out. Waiting for processes to exit.
+Oct  8 14:17:00 gms-web01 CRON[2017]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  8 14:17:01 gms-web01 CRON[2017]: pam_unix(cron:session): session closed for user root
+Oct  8 15:17:00 gms-web01 CRON[2055]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  8 15:17:01 gms-web01 CRON[2055]: pam_unix(cron:session): session closed for user root
+Oct  8 16:02:03 gms-web01 sshd[2420]: Accepted publickey for jsantos from 198.51.100.23 port 53388 ssh2
+Oct  8 16:02:03 gms-web01 sshd[2420]: pam_unix(sshd:session): session opened for user jsantos(uid=1000) by jsantos(uid=0)
+Oct  8 16:02:03 gms-web01 systemd-logind[652]: New session 43 of user jsantos.
+Oct  8 16:17:00 gms-web01 CRON[2074]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  8 16:17:01 gms-web01 CRON[2074]: pam_unix(cron:session): session closed for user root
+Oct  8 16:23:03 gms-web01 sshd[2420]: Received disconnect from 198.51.100.23 port 53388:11: disconnected by user
+Oct  8 16:23:03 gms-web01 sshd[2420]: Disconnected from user jsantos 198.51.100.23 port 53388
+Oct  8 16:23:03 gms-web01 sshd[2420]: pam_unix(sshd:session): session closed for user jsantos
+Oct  8 16:23:03 gms-web01 systemd-logind[652]: Session 43 logged out. Waiting for processes to exit.
+Oct  8 17:17:00 gms-web01 CRON[2084]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  8 17:17:01 gms-web01 CRON[2084]: pam_unix(cron:session): session closed for user root
+Oct  8 18:17:00 gms-web01 CRON[2095]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  8 18:17:01 gms-web01 CRON[2095]: pam_unix(cron:session): session closed for user root
+Oct  8 19:02:30 gms-web01 sshd[3751]: Invalid user pi from 192.0.2.131 port 30587
+Oct  8 19:02:31 gms-web01 sshd[3751]: Failed password for invalid user pi from 192.0.2.131 port 30587 ssh2
+Oct  8 19:02:31 gms-web01 sshd[3751]: Connection closed by invalid user pi 192.0.2.131 port 30587 [preauth]
+Oct  8 19:02:33 gms-web01 sshd[3782]: Failed password for root from 192.0.2.131 port 64600 ssh2
+Oct  8 19:02:34 gms-web01 sshd[3782]: Connection closed by authenticating user root 192.0.2.131 port 64600 [preauth]
+Oct  8 19:02:42 gms-web01 sshd[3805]: Failed password for root from 192.0.2.131 port 38756 ssh2
+Oct  8 19:02:43 gms-web01 sshd[3805]: Connection closed by authenticating user root 192.0.2.131 port 38756 [preauth]
+Oct  8 19:02:47 gms-web01 sshd[3817]: Failed password for root from 192.0.2.131 port 48461 ssh2
+Oct  8 19:02:48 gms-web01 sshd[3817]: Connection closed by authenticating user root 192.0.2.131 port 48461 [preauth]
+Oct  8 19:02:50 gms-web01 sshd[3837]: Failed password for root from 192.0.2.131 port 49243 ssh2
+Oct  8 19:02:51 gms-web01 sshd[3837]: Connection closed by authenticating user root 192.0.2.131 port 49243 [preauth]
+Oct  8 19:02:56 gms-web01 sshd[3862]: Invalid user oracle from 192.0.2.131 port 30724
+Oct  8 19:02:57 gms-web01 sshd[3862]: Failed password for invalid user oracle from 192.0.2.131 port 30724 ssh2
+Oct  8 19:02:57 gms-web01 sshd[3862]: Connection closed by invalid user oracle 192.0.2.131 port 30724 [preauth]
+Oct  8 19:02:59 gms-web01 sshd[3880]: Failed password for root from 192.0.2.131 port 31993 ssh2
+Oct  8 19:03:00 gms-web01 sshd[3880]: Connection closed by authenticating user root 192.0.2.131 port 31993 [preauth]
+Oct  8 19:03:01 gms-web01 sshd[3894]: Invalid user user from 192.0.2.131 port 35287
+Oct  8 19:03:02 gms-web01 sshd[3894]: Failed password for invalid user user from 192.0.2.131 port 35287 ssh2
+Oct  8 19:03:02 gms-web01 sshd[3894]: Connection closed by invalid user user 192.0.2.131 port 35287 [preauth]
+Oct  8 19:03:04 gms-web01 sshd[3911]: Invalid user support1 from 192.0.2.131 port 38044
+Oct  8 19:03:05 gms-web01 sshd[3911]: Failed password for invalid user support1 from 192.0.2.131 port 38044 ssh2
+Oct  8 19:03:05 gms-web01 sshd[3911]: Connection closed by invalid user support1 192.0.2.131 port 38044 [preauth]
+Oct  8 19:03:07 gms-web01 sshd[3919]: Failed password for root from 192.0.2.131 port 45090 ssh2
+Oct  8 19:03:08 gms-web01 sshd[3919]: Connection closed by authenticating user root 192.0.2.131 port 45090 [preauth]
+Oct  8 19:03:09 gms-web01 sshd[3932]: Failed password for root from 192.0.2.131 port 61810 ssh2
+Oct  8 19:03:10 gms-web01 sshd[3932]: Connection closed by authenticating user root 192.0.2.131 port 61810 [preauth]
+Oct  8 19:03:12 gms-web01 sshd[3972]: Invalid user user from 192.0.2.131 port 32483
+Oct  8 19:03:13 gms-web01 sshd[3972]: Failed password for invalid user user from 192.0.2.131 port 32483 ssh2
+Oct  8 19:03:13 gms-web01 sshd[3972]: Connection closed by invalid user user 192.0.2.131 port 32483 [preauth]
+Oct  8 19:03:18 gms-web01 sshd[3983]: Invalid user guest from 192.0.2.131 port 33999
+Oct  8 19:03:19 gms-web01 sshd[3983]: Failed password for invalid user guest from 192.0.2.131 port 33999 ssh2
+Oct  8 19:03:19 gms-web01 sshd[3983]: Connection closed by invalid user guest 192.0.2.131 port 33999 [preauth]
+Oct  8 19:03:21 gms-web01 sshd[3996]: Invalid user admin from 192.0.2.131 port 58590
+Oct  8 19:03:22 gms-web01 sshd[3996]: Failed password for invalid user admin from 192.0.2.131 port 58590 ssh2
+Oct  8 19:03:22 gms-web01 sshd[3996]: Connection closed by invalid user admin 192.0.2.131 port 58590 [preauth]
+Oct  8 19:03:26 gms-web01 sshd[4005]: Invalid user ubuntu from 192.0.2.131 port 64171
+Oct  8 19:03:27 gms-web01 sshd[4005]: Failed password for invalid user ubuntu from 192.0.2.131 port 64171 ssh2
+Oct  8 19:03:27 gms-web01 sshd[4005]: Connection closed by invalid user ubuntu 192.0.2.131 port 64171 [preauth]
+Oct  8 19:03:31 gms-web01 sshd[4041]: Failed password for root from 192.0.2.131 port 52051 ssh2
+Oct  8 19:03:32 gms-web01 sshd[4041]: Connection closed by authenticating user root 192.0.2.131 port 52051 [preauth]
+Oct  8 19:03:36 gms-web01 sshd[4057]: Invalid user guest from 192.0.2.131 port 57711
+Oct  8 19:03:37 gms-web01 sshd[4057]: Failed password for invalid user guest from 192.0.2.131 port 57711 ssh2
+Oct  8 19:03:37 gms-web01 sshd[4057]: Connection closed by invalid user guest 192.0.2.131 port 57711 [preauth]
+Oct  8 19:03:45 gms-web01 sshd[4083]: Invalid user deploy from 192.0.2.131 port 31484
+Oct  8 19:03:46 gms-web01 sshd[4083]: Failed password for invalid user deploy from 192.0.2.131 port 31484 ssh2
+Oct  8 19:03:46 gms-web01 sshd[4083]: Connection closed by invalid user deploy 192.0.2.131 port 31484 [preauth]
+Oct  8 19:03:50 gms-web01 sshd[4121]: Invalid user ftpuser from 192.0.2.131 port 60395
+Oct  8 19:03:51 gms-web01 sshd[4121]: Failed password for invalid user ftpuser from 192.0.2.131 port 60395 ssh2
+Oct  8 19:03:51 gms-web01 sshd[4121]: Connection closed by invalid user ftpuser 192.0.2.131 port 60395 [preauth]
+Oct  8 19:03:52 gms-web01 sshd[4132]: Failed password for root from 192.0.2.131 port 49485 ssh2
+Oct  8 19:03:53 gms-web01 sshd[4132]: Connection closed by authenticating user root 192.0.2.131 port 49485 [preauth]
+Oct  8 19:03:54 gms-web01 sshd[4169]: Failed password for root from 192.0.2.131 port 60271 ssh2
+Oct  8 19:03:55 gms-web01 sshd[4169]: Connection closed by authenticating user root 192.0.2.131 port 60271 [preauth]
+Oct  8 19:04:01 gms-web01 sshd[4193]: Failed password for root from 192.0.2.131 port 43339 ssh2
+Oct  8 19:04:02 gms-web01 sshd[4193]: Connection closed by authenticating user root 192.0.2.131 port 43339 [preauth]
+Oct  8 19:04:06 gms-web01 sshd[4210]: Failed password for root from 192.0.2.131 port 30652 ssh2
+Oct  8 19:04:07 gms-web01 sshd[4210]: Connection closed by authenticating user root 192.0.2.131 port 30652 [preauth]
+Oct  8 19:04:11 gms-web01 sshd[4222]: Invalid user git from 192.0.2.131 port 54129
+Oct  8 19:04:12 gms-web01 sshd[4222]: Failed password for invalid user git from 192.0.2.131 port 54129 ssh2
+Oct  8 19:04:12 gms-web01 sshd[4222]: Connection closed by invalid user git 192.0.2.131 port 54129 [preauth]
+Oct  8 19:04:17 gms-web01 sshd[4244]: Invalid user guest from 192.0.2.131 port 61974
+Oct  8 19:04:18 gms-web01 sshd[4244]: Failed password for invalid user guest from 192.0.2.131 port 61974 ssh2
+Oct  8 19:04:18 gms-web01 sshd[4244]: Connection closed by invalid user guest 192.0.2.131 port 61974 [preauth]
+Oct  8 19:04:19 gms-web01 sshd[4278]: Failed password for root from 192.0.2.131 port 53565 ssh2
+Oct  8 19:04:20 gms-web01 sshd[4278]: Connection closed by authenticating user root 192.0.2.131 port 53565 [preauth]
+Oct  8 19:04:25 gms-web01 sshd[4295]: Invalid user postgres from 192.0.2.131 port 53147
+Oct  8 19:04:26 gms-web01 sshd[4295]: Failed password for invalid user postgres from 192.0.2.131 port 53147 ssh2
+Oct  8 19:04:26 gms-web01 sshd[4295]: Connection closed by invalid user postgres 192.0.2.131 port 53147 [preauth]
+Oct  8 19:04:28 gms-web01 sshd[4298]: Failed password for root from 192.0.2.131 port 64128 ssh2
+Oct  8 19:04:29 gms-web01 sshd[4298]: Connection closed by authenticating user root 192.0.2.131 port 64128 [preauth]
+Oct  8 19:04:33 gms-web01 sshd[4324]: Invalid user guest from 192.0.2.131 port 46587
+Oct  8 19:04:34 gms-web01 sshd[4324]: Failed password for invalid user guest from 192.0.2.131 port 46587 ssh2
+Oct  8 19:04:34 gms-web01 sshd[4324]: Connection closed by invalid user guest 192.0.2.131 port 46587 [preauth]
+Oct  8 19:04:38 gms-web01 sshd[4343]: Invalid user admin from 192.0.2.131 port 61020
+Oct  8 19:04:39 gms-web01 sshd[4343]: Failed password for invalid user admin from 192.0.2.131 port 61020 ssh2
+Oct  8 19:04:39 gms-web01 sshd[4343]: Connection closed by invalid user admin 192.0.2.131 port 61020 [preauth]
+Oct  8 19:04:45 gms-web01 sshd[4351]: Invalid user postgres from 192.0.2.131 port 36797
+Oct  8 19:04:46 gms-web01 sshd[4351]: Failed password for invalid user postgres from 192.0.2.131 port 36797 ssh2
+Oct  8 19:04:46 gms-web01 sshd[4351]: Connection closed by invalid user postgres 192.0.2.131 port 36797 [preauth]
+Oct  8 19:04:48 gms-web01 sshd[4382]: Failed password for root from 192.0.2.131 port 64678 ssh2
+Oct  8 19:04:49 gms-web01 sshd[4382]: Connection closed by authenticating user root 192.0.2.131 port 64678 [preauth]
+Oct  8 19:04:53 gms-web01 sshd[4386]: Invalid user ubuntu from 192.0.2.131 port 39740
+Oct  8 19:04:54 gms-web01 sshd[4386]: Failed password for invalid user ubuntu from 192.0.2.131 port 39740 ssh2
+Oct  8 19:04:54 gms-web01 sshd[4386]: Connection closed by invalid user ubuntu 192.0.2.131 port 39740 [preauth]
+Oct  8 19:05:01 gms-web01 sshd[4424]: Failed password for root from 192.0.2.131 port 61948 ssh2
+Oct  8 19:05:02 gms-web01 sshd[4424]: Connection closed by authenticating user root 192.0.2.131 port 61948 [preauth]
+Oct  8 19:05:04 gms-web01 sshd[4448]: Invalid user support1 from 192.0.2.131 port 33426
+Oct  8 19:05:05 gms-web01 sshd[4448]: Failed password for invalid user support1 from 192.0.2.131 port 33426 ssh2
+Oct  8 19:05:05 gms-web01 sshd[4448]: Connection closed by invalid user support1 192.0.2.131 port 33426 [preauth]
+Oct  8 19:05:10 gms-web01 sshd[4469]: Invalid user postgres from 192.0.2.131 port 54954
+Oct  8 19:05:11 gms-web01 sshd[4469]: Failed password for invalid user postgres from 192.0.2.131 port 54954 ssh2
+Oct  8 19:05:11 gms-web01 sshd[4469]: Connection closed by invalid user postgres 192.0.2.131 port 54954 [preauth]
+Oct  8 19:05:17 gms-web01 sshd[4505]: Invalid user oracle from 192.0.2.131 port 38768
+Oct  8 19:05:18 gms-web01 sshd[4505]: Failed password for invalid user oracle from 192.0.2.131 port 38768 ssh2
+Oct  8 19:05:18 gms-web01 sshd[4505]: Connection closed by invalid user oracle 192.0.2.131 port 38768 [preauth]
+Oct  8 19:05:24 gms-web01 sshd[4533]: Invalid user user from 192.0.2.131 port 55084
+Oct  8 19:05:25 gms-web01 sshd[4533]: Failed password for invalid user user from 192.0.2.131 port 55084 ssh2
+Oct  8 19:05:25 gms-web01 sshd[4533]: Connection closed by invalid user user 192.0.2.131 port 55084 [preauth]
+Oct  8 19:05:26 gms-web01 sshd[4571]: Failed password for root from 192.0.2.131 port 33913 ssh2
+Oct  8 19:05:27 gms-web01 sshd[4571]: Connection closed by authenticating user root 192.0.2.131 port 33913 [preauth]
+Oct  8 19:05:33 gms-web01 sshd[4592]: Invalid user oracle from 192.0.2.131 port 54835
+Oct  8 19:05:34 gms-web01 sshd[4592]: Failed password for invalid user oracle from 192.0.2.131 port 54835 ssh2
+Oct  8 19:05:34 gms-web01 sshd[4592]: Connection closed by invalid user oracle 192.0.2.131 port 54835 [preauth]
+Oct  8 19:05:35 gms-web01 sshd[4624]: Invalid user pi from 192.0.2.131 port 59647
+Oct  8 19:05:36 gms-web01 sshd[4624]: Failed password for invalid user pi from 192.0.2.131 port 59647 ssh2
+Oct  8 19:05:36 gms-web01 sshd[4624]: Connection closed by invalid user pi 192.0.2.131 port 59647 [preauth]
+Oct  8 19:05:43 gms-web01 sshd[4656]: Invalid user deploy from 192.0.2.131 port 50572
+Oct  8 19:05:44 gms-web01 sshd[4656]: Failed password for invalid user deploy from 192.0.2.131 port 50572 ssh2
+Oct  8 19:05:44 gms-web01 sshd[4656]: Connection closed by invalid user deploy 192.0.2.131 port 50572 [preauth]
+Oct  8 19:05:45 gms-web01 sshd[4695]: Failed password for root from 192.0.2.131 port 31035 ssh2
+Oct  8 19:05:46 gms-web01 sshd[4695]: Connection closed by authenticating user root 192.0.2.131 port 31035 [preauth]
+Oct  8 19:05:51 gms-web01 sshd[4714]: Invalid user ftpuser from 192.0.2.131 port 35290
+Oct  8 19:05:52 gms-web01 sshd[4714]: Failed password for invalid user ftpuser from 192.0.2.131 port 35290 ssh2
+Oct  8 19:05:52 gms-web01 sshd[4714]: Connection closed by invalid user ftpuser 192.0.2.131 port 35290 [preauth]
+Oct  8 19:05:58 gms-web01 sshd[4751]: Failed password for root from 192.0.2.131 port 44224 ssh2
+Oct  8 19:05:59 gms-web01 sshd[4751]: Connection closed by authenticating user root 192.0.2.131 port 44224 [preauth]
+Oct  8 19:06:07 gms-web01 sshd[4777]: Invalid user support1 from 192.0.2.131 port 62891
+Oct  8 19:06:08 gms-web01 sshd[4777]: Failed password for invalid user support1 from 192.0.2.131 port 62891 ssh2
+Oct  8 19:06:08 gms-web01 sshd[4777]: Connection closed by invalid user support1 192.0.2.131 port 62891 [preauth]
+Oct  8 19:06:14 gms-web01 sshd[4788]: Invalid user test from 192.0.2.131 port 37440
+Oct  8 19:06:15 gms-web01 sshd[4788]: Failed password for invalid user test from 192.0.2.131 port 37440 ssh2
+Oct  8 19:06:15 gms-web01 sshd[4788]: Connection closed by invalid user test 192.0.2.131 port 37440 [preauth]
+Oct  8 19:06:18 gms-web01 sshd[4798]: Failed password for root from 192.0.2.131 port 58954 ssh2
+Oct  8 19:06:19 gms-web01 sshd[4798]: Connection closed by authenticating user root 192.0.2.131 port 58954 [preauth]
+Oct  8 19:06:24 gms-web01 sshd[4836]: Failed password for root from 192.0.2.131 port 48166 ssh2
+Oct  8 19:06:25 gms-web01 sshd[4836]: Connection closed by authenticating user root 192.0.2.131 port 48166 [preauth]
+Oct  8 19:06:27 gms-web01 sshd[4858]: Invalid user pi from 192.0.2.131 port 51990
+Oct  8 19:06:28 gms-web01 sshd[4858]: Failed password for invalid user pi from 192.0.2.131 port 51990 ssh2
+Oct  8 19:06:28 gms-web01 sshd[4858]: Connection closed by invalid user pi 192.0.2.131 port 51990 [preauth]
+Oct  8 19:06:34 gms-web01 sshd[4892]: Failed password for root from 192.0.2.131 port 60188 ssh2
+Oct  8 19:06:35 gms-web01 sshd[4892]: Connection closed by authenticating user root 192.0.2.131 port 60188 [preauth]
+Oct  8 19:06:39 gms-web01 sshd[4907]: Failed password for root from 192.0.2.131 port 44173 ssh2
+Oct  8 19:06:40 gms-web01 sshd[4907]: Connection closed by authenticating user root 192.0.2.131 port 44173 [preauth]
+Oct  8 19:06:45 gms-web01 sshd[4934]: Failed password for root from 192.0.2.131 port 42304 ssh2
+Oct  8 19:06:46 gms-web01 sshd[4934]: Connection closed by authenticating user root 192.0.2.131 port 42304 [preauth]
+Oct  8 19:06:51 gms-web01 sshd[4942]: Invalid user admin from 192.0.2.131 port 43003
+Oct  8 19:06:52 gms-web01 sshd[4942]: Failed password for invalid user admin from 192.0.2.131 port 43003 ssh2
+Oct  8 19:06:52 gms-web01 sshd[4942]: Connection closed by invalid user admin 192.0.2.131 port 43003 [preauth]
+Oct  8 19:06:56 gms-web01 sshd[4980]: Invalid user postgres from 192.0.2.131 port 39222
+Oct  8 19:06:57 gms-web01 sshd[4980]: Failed password for invalid user postgres from 192.0.2.131 port 39222 ssh2
+Oct  8 19:06:57 gms-web01 sshd[4980]: Connection closed by invalid user postgres 192.0.2.131 port 39222 [preauth]
+Oct  8 19:07:01 gms-web01 sshd[5002]: Invalid user postgres from 192.0.2.131 port 31548
+Oct  8 19:07:02 gms-web01 sshd[5002]: Failed password for invalid user postgres from 192.0.2.131 port 31548 ssh2
+Oct  8 19:07:02 gms-web01 sshd[5002]: Connection closed by invalid user postgres 192.0.2.131 port 31548 [preauth]
+Oct  8 19:07:05 gms-web01 sshd[5022]: Failed password for root from 192.0.2.131 port 43901 ssh2
+Oct  8 19:07:06 gms-web01 sshd[5022]: Connection closed by authenticating user root 192.0.2.131 port 43901 [preauth]
+Oct  8 19:07:09 gms-web01 sshd[5034]: Failed password for root from 192.0.2.131 port 39141 ssh2
+Oct  8 19:07:10 gms-web01 sshd[5034]: Connection closed by authenticating user root 192.0.2.131 port 39141 [preauth]
+Oct  8 19:07:11 gms-web01 sshd[5057]: Invalid user oracle from 192.0.2.131 port 43867
+Oct  8 19:07:12 gms-web01 sshd[5057]: Failed password for invalid user oracle from 192.0.2.131 port 43867 ssh2
+Oct  8 19:07:12 gms-web01 sshd[5057]: Connection closed by invalid user oracle 192.0.2.131 port 43867 [preauth]
+Oct  8 19:07:18 gms-web01 sshd[5074]: Failed password for root from 192.0.2.131 port 64858 ssh2
+Oct  8 19:07:19 gms-web01 sshd[5074]: Connection closed by authenticating user root 192.0.2.131 port 64858 [preauth]
+Oct  8 19:07:22 gms-web01 sshd[5079]: Invalid user postgres from 192.0.2.131 port 35128
+Oct  8 19:07:23 gms-web01 sshd[5079]: Failed password for invalid user postgres from 192.0.2.131 port 35128 ssh2
+Oct  8 19:07:23 gms-web01 sshd[5079]: Connection closed by invalid user postgres 192.0.2.131 port 35128 [preauth]
+Oct  8 19:07:30 gms-web01 sshd[5082]: Invalid user pi from 192.0.2.131 port 48862
+Oct  8 19:07:31 gms-web01 sshd[5082]: Failed password for invalid user pi from 192.0.2.131 port 48862 ssh2
+Oct  8 19:07:31 gms-web01 sshd[5082]: Connection closed by invalid user pi 192.0.2.131 port 48862 [preauth]
+Oct  8 19:07:39 gms-web01 sshd[5095]: Failed password for root from 192.0.2.131 port 30922 ssh2
+Oct  8 19:07:40 gms-web01 sshd[5095]: Connection closed by authenticating user root 192.0.2.131 port 30922 [preauth]
+Oct  8 19:07:48 gms-web01 sshd[5114]: Failed password for root from 192.0.2.131 port 49153 ssh2
+Oct  8 19:07:49 gms-web01 sshd[5114]: Connection closed by authenticating user root 192.0.2.131 port 49153 [preauth]
+Oct  8 19:07:51 gms-web01 sshd[5148]: Invalid user test from 192.0.2.131 port 39054
+Oct  8 19:07:52 gms-web01 sshd[5148]: Failed password for invalid user test from 192.0.2.131 port 39054 ssh2
+Oct  8 19:07:52 gms-web01 sshd[5148]: Connection closed by invalid user test 192.0.2.131 port 39054 [preauth]
+Oct  8 19:07:59 gms-web01 sshd[5154]: Failed password for root from 192.0.2.131 port 53869 ssh2
+Oct  8 19:08:00 gms-web01 sshd[5154]: Connection closed by authenticating user root 192.0.2.131 port 53869 [preauth]
+Oct  8 19:08:01 gms-web01 sshd[5193]: Invalid user user from 192.0.2.131 port 40576
+Oct  8 19:08:02 gms-web01 sshd[5193]: Failed password for invalid user user from 192.0.2.131 port 40576 ssh2
+Oct  8 19:08:02 gms-web01 sshd[5193]: Connection closed by invalid user user 192.0.2.131 port 40576 [preauth]
+Oct  8 19:08:03 gms-web01 sshd[5223]: Failed password for root from 192.0.2.131 port 47226 ssh2
+Oct  8 19:08:04 gms-web01 sshd[5223]: Connection closed by authenticating user root 192.0.2.131 port 47226 [preauth]
+Oct  8 19:08:11 gms-web01 sshd[5261]: Failed password for root from 192.0.2.131 port 55882 ssh2
+Oct  8 19:08:12 gms-web01 sshd[5261]: Connection closed by authenticating user root 192.0.2.131 port 55882 [preauth]
+Oct  8 19:08:15 gms-web01 sshd[5278]: Failed password for root from 192.0.2.131 port 32590 ssh2
+Oct  8 19:08:16 gms-web01 sshd[5278]: Connection closed by authenticating user root 192.0.2.131 port 32590 [preauth]
+Oct  8 19:08:20 gms-web01 sshd[5302]: Invalid user support1 from 192.0.2.131 port 32549
+Oct  8 19:08:21 gms-web01 sshd[5302]: Failed password for invalid user support1 from 192.0.2.131 port 32549 ssh2
+Oct  8 19:08:21 gms-web01 sshd[5302]: Connection closed by invalid user support1 192.0.2.131 port 32549 [preauth]
+Oct  8 19:08:25 gms-web01 sshd[5315]: Invalid user admin from 192.0.2.131 port 52011
+Oct  8 19:08:26 gms-web01 sshd[5315]: Failed password for invalid user admin from 192.0.2.131 port 52011 ssh2
+Oct  8 19:08:26 gms-web01 sshd[5315]: Connection closed by invalid user admin 192.0.2.131 port 52011 [preauth]
+Oct  8 19:08:27 gms-web01 sshd[5328]: Failed password for root from 192.0.2.131 port 51704 ssh2
+Oct  8 19:08:28 gms-web01 sshd[5328]: Connection closed by authenticating user root 192.0.2.131 port 51704 [preauth]
+Oct  8 19:08:30 gms-web01 sshd[5359]: Failed password for root from 192.0.2.131 port 44323 ssh2
+Oct  8 19:08:31 gms-web01 sshd[5359]: Connection closed by authenticating user root 192.0.2.131 port 44323 [preauth]
+Oct  8 19:08:35 gms-web01 sshd[5381]: Invalid user guest from 192.0.2.131 port 50742
+Oct  8 19:08:36 gms-web01 sshd[5381]: Failed password for invalid user guest from 192.0.2.131 port 50742 ssh2
+Oct  8 19:08:36 gms-web01 sshd[5381]: Connection closed by invalid user guest 192.0.2.131 port 50742 [preauth]
+Oct  8 19:08:41 gms-web01 sshd[5406]: Invalid user oracle from 192.0.2.131 port 63881
+Oct  8 19:08:42 gms-web01 sshd[5406]: Failed password for invalid user oracle from 192.0.2.131 port 63881 ssh2
+Oct  8 19:08:42 gms-web01 sshd[5406]: Connection closed by invalid user oracle 192.0.2.131 port 63881 [preauth]
+Oct  8 19:08:50 gms-web01 sshd[5439]: Invalid user support1 from 192.0.2.131 port 63394
+Oct  8 19:08:51 gms-web01 sshd[5439]: Failed password for invalid user support1 from 192.0.2.131 port 63394 ssh2
+Oct  8 19:08:51 gms-web01 sshd[5439]: Connection closed by invalid user support1 192.0.2.131 port 63394 [preauth]
+Oct  8 19:08:59 gms-web01 sshd[5477]: Failed password for root from 192.0.2.131 port 32546 ssh2
+Oct  8 19:09:00 gms-web01 sshd[5477]: Connection closed by authenticating user root 192.0.2.131 port 32546 [preauth]
+Oct  8 19:09:02 gms-web01 sshd[5485]: Invalid user guest from 192.0.2.131 port 63990
+Oct  8 19:09:03 gms-web01 sshd[5485]: Failed password for invalid user guest from 192.0.2.131 port 63990 ssh2
+Oct  8 19:09:03 gms-web01 sshd[5485]: Connection closed by invalid user guest 192.0.2.131 port 63990 [preauth]
+Oct  8 19:09:08 gms-web01 sshd[5516]: Invalid user deploy from 192.0.2.131 port 46404
+Oct  8 19:09:09 gms-web01 sshd[5516]: Failed password for invalid user deploy from 192.0.2.131 port 46404 ssh2
+Oct  8 19:09:09 gms-web01 sshd[5516]: Connection closed by invalid user deploy 192.0.2.131 port 46404 [preauth]
+Oct  8 19:09:16 gms-web01 sshd[5549]: Invalid user guest from 192.0.2.131 port 64125
+Oct  8 19:09:17 gms-web01 sshd[5549]: Failed password for invalid user guest from 192.0.2.131 port 64125 ssh2
+Oct  8 19:09:17 gms-web01 sshd[5549]: Connection closed by invalid user guest 192.0.2.131 port 64125 [preauth]
+Oct  8 19:09:25 gms-web01 sshd[5582]: Failed password for root from 192.0.2.131 port 39965 ssh2
+Oct  8 19:09:26 gms-web01 sshd[5582]: Connection closed by authenticating user root 192.0.2.131 port 39965 [preauth]
+Oct  8 19:09:30 gms-web01 sshd[5621]: Failed password for root from 192.0.2.131 port 63710 ssh2
+Oct  8 19:09:31 gms-web01 sshd[5621]: Connection closed by authenticating user root 192.0.2.131 port 63710 [preauth]
+Oct  8 19:09:32 gms-web01 sshd[5632]: Invalid user deploy from 192.0.2.131 port 52107
+Oct  8 19:09:33 gms-web01 sshd[5632]: Failed password for invalid user deploy from 192.0.2.131 port 52107 ssh2
+Oct  8 19:09:33 gms-web01 sshd[5632]: Connection closed by invalid user deploy 192.0.2.131 port 52107 [preauth]
+Oct  8 19:09:36 gms-web01 sshd[5637]: Invalid user ubuntu from 192.0.2.131 port 45256
+Oct  8 19:09:37 gms-web01 sshd[5637]: Failed password for invalid user ubuntu from 192.0.2.131 port 45256 ssh2
+Oct  8 19:09:37 gms-web01 sshd[5637]: Connection closed by invalid user ubuntu 192.0.2.131 port 45256 [preauth]
+Oct  8 19:17:00 gms-web01 CRON[2127]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  8 19:17:01 gms-web01 CRON[2127]: pam_unix(cron:session): session closed for user root
+Oct  8 20:17:00 gms-web01 CRON[2142]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  8 20:17:01 gms-web01 CRON[2142]: pam_unix(cron:session): session closed for user root
+Oct  8 21:17:00 gms-web01 CRON[2156]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  8 21:17:01 gms-web01 CRON[2156]: pam_unix(cron:session): session closed for user root
+Oct  8 22:17:00 gms-web01 CRON[2177]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  8 22:17:01 gms-web01 CRON[2177]: pam_unix(cron:session): session closed for user root
+Oct  8 23:17:00 gms-web01 CRON[2185]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  8 23:17:01 gms-web01 CRON[2185]: pam_unix(cron:session): session closed for user root
+Oct  9 00:17:00 gms-web01 CRON[2188]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  9 00:17:01 gms-web01 CRON[2188]: pam_unix(cron:session): session closed for user root
+Oct  9 01:17:00 gms-web01 CRON[2214]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  9 01:17:01 gms-web01 CRON[2214]: pam_unix(cron:session): session closed for user root
+Oct  9 01:57:30 gms-web01 sshd[6538]: Failed password for root from 203.0.113.47 port 49275 ssh2
+Oct  9 01:57:32 gms-web01 sshd[6538]: Connection closed by authenticating user root 203.0.113.47 port 49275 [preauth]
+Oct  9 01:58:05 gms-web01 sshd[6569]: Failed password for root from 203.0.113.47 port 49246 ssh2
+Oct  9 01:58:07 gms-web01 sshd[6569]: Connection closed by authenticating user root 203.0.113.47 port 49246 [preauth]
+Oct  9 01:58:44 gms-web01 sshd[6581]: Accepted password for dmorales from 203.0.113.47 port 49822 ssh2
+Oct  9 01:58:44 gms-web01 sshd[6581]: pam_unix(sshd:session): session opened for user dmorales(uid=1001) by dmorales(uid=0)
+Oct  9 01:58:44 gms-web01 systemd-logind[652]: New session 57 of user dmorales.
+Oct  9 02:00:15 gms-web01 sudo: dmorales : TTY=pts/0 ; PWD=/home/dmorales ; USER=root ; COMMAND=list
+Oct  9 02:00:41 gms-web01 sudo: dmorales : TTY=pts/0 ; PWD=/home/dmorales ; USER=root ; COMMAND=/bin/bash
+Oct  9 02:00:41 gms-web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by dmorales(uid=1001)
+Oct  9 02:03:10 gms-web01 groupadd[6619]: group added to /etc/group: name=support, GID=1003
+Oct  9 02:03:10 gms-web01 groupadd[6619]: new group: name=support, GID=1003
+Oct  9 02:03:10 gms-web01 useradd[6619]: new user: name=support, UID=1003, GID=1003, home=/home/support, shell=/bin/bash, from=/dev/pts/0
+Oct  9 02:03:26 gms-web01 passwd[6627]: pam_unix(passwd:chauthtok): password changed for support
+Oct  9 02:03:41 gms-web01 usermod[6653]: add 'support' to group 'sudo'
+Oct  9 02:03:41 gms-web01 usermod[6653]: add 'support' to shadow group 'sudo'
+Oct  9 02:17:00 gms-web01 CRON[2220]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  9 02:17:01 gms-web01 CRON[2220]: pam_unix(cron:session): session closed for user root
+Oct  9 02:18:20 gms-web01 sudo: pam_unix(sudo:session): session closed for user root
+Oct  9 02:18:44 gms-web01 sshd[6581]: Received disconnect from 203.0.113.47 port 49822:11: disconnected by user
+Oct  9 02:18:44 gms-web01 sshd[6581]: Disconnected from user dmorales 203.0.113.47 port 49822
+Oct  9 02:18:44 gms-web01 sshd[6581]: pam_unix(sshd:session): session closed for user dmorales
+Oct  9 02:18:44 gms-web01 systemd-logind[652]: Session 57 logged out. Waiting for processes to exit.
+Oct  9 02:24:06 gms-web01 sshd[6671]: Accepted password for support from 203.0.113.47 port 50112 ssh2
+Oct  9 02:24:06 gms-web01 sshd[6671]: pam_unix(sshd:session): session opened for user support(uid=1003) by support(uid=0)
+Oct  9 02:24:06 gms-web01 systemd-logind[652]: New session 58 of user support.
+Oct  9 02:25:06 gms-web01 sshd[6671]: Received disconnect from 203.0.113.47 port 50112:11: disconnected by user
+Oct  9 02:25:06 gms-web01 sshd[6671]: Disconnected from user support 203.0.113.47 port 50112
+Oct  9 02:25:06 gms-web01 sshd[6671]: pam_unix(sshd:session): session closed for user support
+Oct  9 02:25:06 gms-web01 systemd-logind[652]: Session 58 logged out. Waiting for processes to exit.
+Oct  9 03:17:00 gms-web01 CRON[2227]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  9 03:17:01 gms-web01 CRON[2227]: pam_unix(cron:session): session closed for user root
+Oct  9 04:17:00 gms-web01 CRON[2258]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  9 04:17:01 gms-web01 CRON[2258]: pam_unix(cron:session): session closed for user root
+Oct  9 04:48:10 gms-web01 sshd[5675]: Failed password for root from 192.0.2.77 port 44762 ssh2
+Oct  9 04:48:11 gms-web01 sshd[5675]: Connection closed by authenticating user root 192.0.2.77 port 44762 [preauth]
+Oct  9 04:48:14 gms-web01 sshd[5690]: Invalid user oracle from 192.0.2.77 port 47525
+Oct  9 04:48:15 gms-web01 sshd[5690]: Failed password for invalid user oracle from 192.0.2.77 port 47525 ssh2
+Oct  9 04:48:15 gms-web01 sshd[5690]: Connection closed by invalid user oracle 192.0.2.77 port 47525 [preauth]
+Oct  9 04:48:20 gms-web01 sshd[5701]: Failed password for root from 192.0.2.77 port 46677 ssh2
+Oct  9 04:48:21 gms-web01 sshd[5701]: Connection closed by authenticating user root 192.0.2.77 port 46677 [preauth]
+Oct  9 04:48:29 gms-web01 sshd[5706]: Invalid user guest from 192.0.2.77 port 42770
+Oct  9 04:48:30 gms-web01 sshd[5706]: Failed password for invalid user guest from 192.0.2.77 port 42770 ssh2
+Oct  9 04:48:30 gms-web01 sshd[5706]: Connection closed by invalid user guest 192.0.2.77 port 42770 [preauth]
+Oct  9 04:48:34 gms-web01 sshd[5730]: Invalid user ftpuser from 192.0.2.77 port 37081
+Oct  9 04:48:35 gms-web01 sshd[5730]: Failed password for invalid user ftpuser from 192.0.2.77 port 37081 ssh2
+Oct  9 04:48:35 gms-web01 sshd[5730]: Connection closed by invalid user ftpuser 192.0.2.77 port 37081 [preauth]
+Oct  9 04:48:36 gms-web01 sshd[5768]: Invalid user user from 192.0.2.77 port 47012
+Oct  9 04:48:37 gms-web01 sshd[5768]: Failed password for invalid user user from 192.0.2.77 port 47012 ssh2
+Oct  9 04:48:37 gms-web01 sshd[5768]: Connection closed by invalid user user 192.0.2.77 port 47012 [preauth]
+Oct  9 04:48:43 gms-web01 sshd[5796]: Failed password for root from 192.0.2.77 port 49457 ssh2
+Oct  9 04:48:44 gms-web01 sshd[5796]: Connection closed by authenticating user root 192.0.2.77 port 49457 [preauth]
+Oct  9 04:48:49 gms-web01 sshd[5828]: Invalid user ubuntu from 192.0.2.77 port 56226
+Oct  9 04:48:50 gms-web01 sshd[5828]: Failed password for invalid user ubuntu from 192.0.2.77 port 56226 ssh2
+Oct  9 04:48:50 gms-web01 sshd[5828]: Connection closed by invalid user ubuntu 192.0.2.77 port 56226 [preauth]
+Oct  9 04:48:57 gms-web01 sshd[5863]: Invalid user guest from 192.0.2.77 port 39649
+Oct  9 04:48:58 gms-web01 sshd[5863]: Failed password for invalid user guest from 192.0.2.77 port 39649 ssh2
+Oct  9 04:48:58 gms-web01 sshd[5863]: Connection closed by invalid user guest 192.0.2.77 port 39649 [preauth]
+Oct  9 04:49:06 gms-web01 sshd[5895]: Invalid user test from 192.0.2.77 port 31646
+Oct  9 04:49:07 gms-web01 sshd[5895]: Failed password for invalid user test from 192.0.2.77 port 31646 ssh2
+Oct  9 04:49:07 gms-web01 sshd[5895]: Connection closed by invalid user test 192.0.2.77 port 31646 [preauth]
+Oct  9 04:49:12 gms-web01 sshd[5932]: Invalid user deploy from 192.0.2.77 port 34404
+Oct  9 04:49:13 gms-web01 sshd[5932]: Failed password for invalid user deploy from 192.0.2.77 port 34404 ssh2
+Oct  9 04:49:13 gms-web01 sshd[5932]: Connection closed by invalid user deploy 192.0.2.77 port 34404 [preauth]
+Oct  9 04:49:21 gms-web01 sshd[5948]: Invalid user oracle from 192.0.2.77 port 38564
+Oct  9 04:49:22 gms-web01 sshd[5948]: Failed password for invalid user oracle from 192.0.2.77 port 38564 ssh2
+Oct  9 04:49:22 gms-web01 sshd[5948]: Connection closed by invalid user oracle 192.0.2.77 port 38564 [preauth]
+Oct  9 04:49:29 gms-web01 sshd[5965]: Invalid user git from 192.0.2.77 port 57787
+Oct  9 04:49:30 gms-web01 sshd[5965]: Failed password for invalid user git from 192.0.2.77 port 57787 ssh2
+Oct  9 04:49:30 gms-web01 sshd[5965]: Connection closed by invalid user git 192.0.2.77 port 57787 [preauth]
+Oct  9 04:49:35 gms-web01 sshd[5981]: Invalid user support1 from 192.0.2.77 port 46958
+Oct  9 04:49:36 gms-web01 sshd[5981]: Failed password for invalid user support1 from 192.0.2.77 port 46958 ssh2
+Oct  9 04:49:36 gms-web01 sshd[5981]: Connection closed by invalid user support1 192.0.2.77 port 46958 [preauth]
+Oct  9 04:49:41 gms-web01 sshd[6021]: Failed password for root from 192.0.2.77 port 60193 ssh2
+Oct  9 04:49:42 gms-web01 sshd[6021]: Connection closed by authenticating user root 192.0.2.77 port 60193 [preauth]
+Oct  9 04:49:47 gms-web01 sshd[6040]: Invalid user postgres from 192.0.2.77 port 32171
+Oct  9 04:49:48 gms-web01 sshd[6040]: Failed password for invalid user postgres from 192.0.2.77 port 32171 ssh2
+Oct  9 04:49:48 gms-web01 sshd[6040]: Connection closed by invalid user postgres 192.0.2.77 port 32171 [preauth]
+Oct  9 04:49:51 gms-web01 sshd[6079]: Failed password for root from 192.0.2.77 port 64849 ssh2
+Oct  9 04:49:52 gms-web01 sshd[6079]: Connection closed by authenticating user root 192.0.2.77 port 64849 [preauth]
+Oct  9 04:50:00 gms-web01 sshd[6110]: Invalid user pi from 192.0.2.77 port 56149
+Oct  9 04:50:01 gms-web01 sshd[6110]: Failed password for invalid user pi from 192.0.2.77 port 56149 ssh2
+Oct  9 04:50:01 gms-web01 sshd[6110]: Connection closed by invalid user pi 192.0.2.77 port 56149 [preauth]
+Oct  9 04:50:07 gms-web01 sshd[6137]: Failed password for root from 192.0.2.77 port 32208 ssh2
+Oct  9 04:50:08 gms-web01 sshd[6137]: Connection closed by authenticating user root 192.0.2.77 port 32208 [preauth]
+Oct  9 04:50:11 gms-web01 sshd[6164]: Failed password for root from 192.0.2.77 port 63723 ssh2
+Oct  9 04:50:12 gms-web01 sshd[6164]: Connection closed by authenticating user root 192.0.2.77 port 63723 [preauth]
+Oct  9 04:50:15 gms-web01 sshd[6172]: Failed password for root from 192.0.2.77 port 63039 ssh2
+Oct  9 04:50:16 gms-web01 sshd[6172]: Connection closed by authenticating user root 192.0.2.77 port 63039 [preauth]
+Oct  9 04:50:23 gms-web01 sshd[6179]: Invalid user deploy from 192.0.2.77 port 42443
+Oct  9 04:50:24 gms-web01 sshd[6179]: Failed password for invalid user deploy from 192.0.2.77 port 42443 ssh2
+Oct  9 04:50:24 gms-web01 sshd[6179]: Connection closed by invalid user deploy 192.0.2.77 port 42443 [preauth]
+Oct  9 04:50:27 gms-web01 sshd[6185]: Invalid user deploy from 192.0.2.77 port 43687
+Oct  9 04:50:28 gms-web01 sshd[6185]: Failed password for invalid user deploy from 192.0.2.77 port 43687 ssh2
+Oct  9 04:50:28 gms-web01 sshd[6185]: Connection closed by invalid user deploy 192.0.2.77 port 43687 [preauth]
+Oct  9 04:50:34 gms-web01 sshd[6195]: Failed password for root from 192.0.2.77 port 34971 ssh2
+Oct  9 04:50:35 gms-web01 sshd[6195]: Connection closed by authenticating user root 192.0.2.77 port 34971 [preauth]
+Oct  9 04:50:40 gms-web01 sshd[6207]: Failed password for root from 192.0.2.77 port 62549 ssh2
+Oct  9 04:50:41 gms-web01 sshd[6207]: Connection closed by authenticating user root 192.0.2.77 port 62549 [preauth]
+Oct  9 04:50:46 gms-web01 sshd[6229]: Invalid user user from 192.0.2.77 port 59398
+Oct  9 04:50:47 gms-web01 sshd[6229]: Failed password for invalid user user from 192.0.2.77 port 59398 ssh2
+Oct  9 04:50:47 gms-web01 sshd[6229]: Connection closed by invalid user user 192.0.2.77 port 59398 [preauth]
+Oct  9 04:50:54 gms-web01 sshd[6250]: Invalid user pi from 192.0.2.77 port 30514
+Oct  9 04:50:55 gms-web01 sshd[6250]: Failed password for invalid user pi from 192.0.2.77 port 30514 ssh2
+Oct  9 04:50:55 gms-web01 sshd[6250]: Connection closed by invalid user pi 192.0.2.77 port 30514 [preauth]
+Oct  9 04:51:00 gms-web01 sshd[6267]: Failed password for root from 192.0.2.77 port 56037 ssh2
+Oct  9 04:51:01 gms-web01 sshd[6267]: Connection closed by authenticating user root 192.0.2.77 port 56037 [preauth]
+Oct  9 04:51:05 gms-web01 sshd[6272]: Failed password for root from 192.0.2.77 port 52036 ssh2
+Oct  9 04:51:06 gms-web01 sshd[6272]: Connection closed by authenticating user root 192.0.2.77 port 52036 [preauth]
+Oct  9 04:51:08 gms-web01 sshd[6286]: Failed password for root from 192.0.2.77 port 55223 ssh2
+Oct  9 04:51:09 gms-web01 sshd[6286]: Connection closed by authenticating user root 192.0.2.77 port 55223 [preauth]
+Oct  9 04:51:12 gms-web01 sshd[6320]: Invalid user ftpuser from 192.0.2.77 port 53289
+Oct  9 04:51:13 gms-web01 sshd[6320]: Failed password for invalid user ftpuser from 192.0.2.77 port 53289 ssh2
+Oct  9 04:51:13 gms-web01 sshd[6320]: Connection closed by invalid user ftpuser 192.0.2.77 port 53289 [preauth]
+Oct  9 04:51:14 gms-web01 sshd[6328]: Invalid user guest from 192.0.2.77 port 50880
+Oct  9 04:51:15 gms-web01 sshd[6328]: Failed password for invalid user guest from 192.0.2.77 port 50880 ssh2
+Oct  9 04:51:15 gms-web01 sshd[6328]: Connection closed by invalid user guest 192.0.2.77 port 50880 [preauth]
+Oct  9 04:51:19 gms-web01 sshd[6332]: Invalid user pi from 192.0.2.77 port 37482
+Oct  9 04:51:20 gms-web01 sshd[6332]: Failed password for invalid user pi from 192.0.2.77 port 37482 ssh2
+Oct  9 04:51:20 gms-web01 sshd[6332]: Connection closed by invalid user pi 192.0.2.77 port 37482 [preauth]
+Oct  9 04:51:21 gms-web01 sshd[6354]: Failed password for root from 192.0.2.77 port 43110 ssh2
+Oct  9 04:51:22 gms-web01 sshd[6354]: Connection closed by authenticating user root 192.0.2.77 port 43110 [preauth]
+Oct  9 04:51:23 gms-web01 sshd[6385]: Failed password for root from 192.0.2.77 port 30322 ssh2
+Oct  9 04:51:24 gms-web01 sshd[6385]: Connection closed by authenticating user root 192.0.2.77 port 30322 [preauth]
+Oct  9 04:51:26 gms-web01 sshd[6399]: Invalid user pi from 192.0.2.77 port 35148
+Oct  9 04:51:27 gms-web01 sshd[6399]: Failed password for invalid user pi from 192.0.2.77 port 35148 ssh2
+Oct  9 04:51:27 gms-web01 sshd[6399]: Connection closed by invalid user pi 192.0.2.77 port 35148 [preauth]
+Oct  9 04:51:30 gms-web01 sshd[6433]: Invalid user deploy from 192.0.2.77 port 40599
+Oct  9 04:51:31 gms-web01 sshd[6433]: Failed password for invalid user deploy from 192.0.2.77 port 40599 ssh2
+Oct  9 04:51:31 gms-web01 sshd[6433]: Connection closed by invalid user deploy 192.0.2.77 port 40599 [preauth]
+Oct  9 04:51:34 gms-web01 sshd[6451]: Invalid user user from 192.0.2.77 port 61992
+Oct  9 04:51:35 gms-web01 sshd[6451]: Failed password for invalid user user from 192.0.2.77 port 61992 ssh2
+Oct  9 04:51:35 gms-web01 sshd[6451]: Connection closed by invalid user user 192.0.2.77 port 61992 [preauth]
+Oct  9 04:51:42 gms-web01 sshd[6487]: Failed password for root from 192.0.2.77 port 62087 ssh2
+Oct  9 04:51:43 gms-web01 sshd[6487]: Connection closed by authenticating user root 192.0.2.77 port 62087 [preauth]
+Oct  9 04:51:46 gms-web01 sshd[6521]: Failed password for root from 192.0.2.77 port 51772 ssh2
+Oct  9 04:51:47 gms-web01 sshd[6521]: Connection closed by authenticating user root 192.0.2.77 port 51772 [preauth]
+Oct  9 05:17:00 gms-web01 CRON[2278]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  9 05:17:01 gms-web01 CRON[2278]: pam_unix(cron:session): session closed for user root
+Oct  9 06:17:00 gms-web01 CRON[2311]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  9 06:17:01 gms-web01 CRON[2311]: pam_unix(cron:session): session closed for user root
+Oct  9 07:17:00 gms-web01 CRON[2342]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  9 07:17:01 gms-web01 CRON[2342]: pam_unix(cron:session): session closed for user root
+Oct  9 08:17:00 gms-web01 CRON[2361]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct  9 08:17:01 gms-web01 CRON[2361]: pam_unix(cron:session): session closed for user root
